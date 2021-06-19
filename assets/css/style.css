@@ -76,3 +76,13 @@
   }
 }
 
+.logo-img {
+  width: 50%;
+}
+
+@media (max-width: 576px) {
+  .logo-img {
+    width: 70%;
+  }
+}
+
