@@ -108,3 +108,23 @@
   }
 }
 
+.header-div h1 {
+  font-size: 60px;
+}
+
+.MTT-header {
+  font-family: Armata, sans-serif;
+  color: rgb(255,255,255);
+  text-shadow: 2px 2px 5px rgba(74,74,74,0.5);
+}
+
+.MTT-tag {
+  font-family: 'Allerta Stencil', sans-serif;
+}
+
+.MTT-para {
+  text-align: justify;
+  color: rgb(102,102,102);
+  font-size: 16px;
+}
+
