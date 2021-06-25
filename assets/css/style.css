@@ -105,11 +105,24 @@
 @media (max-width: 992px) {
   .blurred-box img {
     width: 100% !important;
+    height: 100% !important;
   }
 }
 
 .header-div h1 {
   font-size: 60px;
+}
+
+@media (max-width: 300px) {
+  .header-div h1 {
+    font-size: 25px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-div h1 {
+    font-size: 45px;
+  }
 }
 
 .MTT-header {
@@ -126,5 +139,9 @@
   text-align: justify;
   color: rgb(102,102,102);
   font-size: 16px;
+}
+
+.icons a:hover {
+  color: rgb(0,133,139);
 }
 
