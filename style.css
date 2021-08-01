@@ -1,0 +1,84 @@
+.explore-button {
+    padding:7.5px 15px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: #00c2cb;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: .8rem;
+    font-weight: 600;
+}
+.explore-button:hover {
+    background-color: #00c2cb;
+    border-color: white;
+    color: #212529 ;
+    /* color:white; */
+}
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+@font-face {
+    font-family:"aileron";
+    src: url("assets/fonts/aileron.otf") format("opentype");
+}
+
+.logo-container {
+    display:flex;
+}
+.logo-container a {
+    padding-right: 20px;
+}
+.logo-container div h3 {
+    font-family: "aileron";
+    color: white;
+    margin-bottom: 0rem;
+}
+
+.hero-section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+/* .hero-section img {
+    margin-right: 100px;
+} */
+.hero-section h1 {
+    color: white;
+    font-family: "aileron";
+    font-size: 100px;
+}
+.hero-section h2 {
+    color: white;
+    padding-left: 10px;
+}
+.hero-section h2 span {
+    color: #00c2cb;
+}
+.hero-section h2 b {
+    color: #00f2ff;
+}
+
+.explore-button-2 {
+    margin-top: 20px;
+    border-radius: 40px;
+    padding:25px 50px;
+    
+    background-color: #00c2cb;
+    border-color: white;
+    
+    color: #212529 ;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.explore-button-2:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border-color: #00c2cb;
+    
+    /* color:white; */
+}
