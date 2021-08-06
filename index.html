@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-
+    <link rel="stylesheet" href="owl.carousel.min.css">
+    <link rel="stylesheet" href="owl.theme.default.css">
+    <script src="jquery.min.js"></script>
 
 </head>
 <body class="bg-dark">
@@ -70,17 +72,89 @@
     <section id="skills" class="clean-block skills-section">
         
         <p id="s-p"></p>
+        <!-- TODO: List of Skills -->
     </section>
 
-    <section class="clean-block galaxy-section">
 
-        <div id="app"></div>
+    <section class="clean-block projects-section">
+        <div class="container">
+            <h1>Our Projects</h1>
+            <!-- <p style="text-align: center;color: #666;">98% of our clients are satisfied with the delivered orders. See below!</p><div class="row"> -->
+<div class="large-12 columns">
+  <div class="owl-carousel owl-theme">
+    <div class="item">
+        <div class="card-group">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">
+                        
+                    </h4>
+                    <img src="assets/img/projects/tilelink.jpg" />
+                    <h3 style="color: #56D001">
+                        TileLink
+                    </h3>
+                    <p class="d-inline card-text">
+                        TileLink Bus Architecture Protocol implemented in CHISEL.
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="item">
+        <div class="card-group">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">
+                        
+                    </h4>
+                    <img src="assets/img/projects/tilelink.jpg" />
+                    <h3 >
+                        Ababeel Core
+                    </h3>
+                    <p class="d-inline card-text">
+                        Single Cycle RISC-V (RV-32i) Core implemented in CHISEL
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
 
-    </section>
+    
 
 </body>
-
 <script type="text/javascript" src="skills.js"></script>
+<script src="owl.carousel.js"></script>
+<script src="owl.carousel.min.js"></script>
+
+<script>
+    jQuery( function($){ $(document).ready(function() {
+      var owl = $('.owl-carousel');
+      owl.owlCarousel({
+        margin: 10,
+        autoplay: true,
+        autoplayTimeout:2000,
+        autoplayHoverPause:true,
+        loop: true,
+        nav:true,
+        dots:true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 2
+          },
+          1000: {
+            items: 3
+          }
+        }
+      })
+    })})
+</script>
 
 
 </html>
