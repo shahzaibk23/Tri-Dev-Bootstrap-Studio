@@ -113,7 +113,7 @@
   font-size: 60px;
 }
 
-@media (max-width: 300px) {
+@media (max-width: 550px) {
   .header-div h1 {
     font-size: 25px !important;
   }
